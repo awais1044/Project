@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="index.css"> -->
+
+    <style>
+        .p2 {
+            position: sticky;
+            top: 0;
+            z-index: 20;
+        }
+
+        .p1 {
+            position: sticky;
+            top: 89px;
+            z-index: 21
+        }
+
+        .n1 {
+            font-family: 'Lumanosimo', cursive;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .ho1:hover {
+            color: rgb(214, 122, 47);
+        }
+
+        .crl {
+            height: 55vh;
+            font-family: 'Lumanosimo', cursive;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .crl3 {
+            text-align: justify;
+        }
+
+        .animated-text p {
+            animation-duration: 1s;
+            animation-fill-mode: both;
+        }
+
+        .text1 {
+            animation-name: example;
+            animation-delay: 0s;
+        }
+
+        .text2 {
+            animation-name: example;
+            animation-delay: 1s;
+        }
+
+        .text3 {
+            animation-name: example;
+            animation-delay: 2s;
+        }
+
+        @keyframes example {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .l1 {
+            height: 120vh;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid p2 bg-dark bg-body-tertiary" data-bs-theme="dark">
+        <div class="row border-bottom border-light">
+            <div class="col-2 d-flex align-items-center justify-content-center p-4 n1">
+                <a class="fs-5 fw-bold text-light link-underline link-underline-opacity-0" href="/index.html">
+                    <img src="/favicon_package_v0.16/favicon.ico" alt="Logo" width="40" height="40"> CodeWithAwais
+                </a>
+            </div>
+            <div class="col-8 d-flex justify-content-end align-items-center">
+                <div class="d-flex flex-row n1 text-light fs-6 fw-semibold">
+                    <div class="p-2 ho1">
+                        <a class="nav-link" aria-current="page" href="/">Home</a>
+                    </div>
+                    <div class="p-2">
+                        <a class="nav-link" aria-current="page" href="/tutorial.html">Tutorial</a>
+                    </div>
+                    <div class="p-2">
+                        <a class="nav-link" aria-current="page" href="/blog.html">Blog</a>
+                    </div>
+                    <div class="p-2">
+                        <a class="nav-link" aria-current="page" href="/notes.html">Notes</a>
+                    </div>
+                    <div class="p-2">
+                        <a class="nav-link" aria-current="page" href="/contact.html">Contact</a>
+                    </div>
+                    <div class="p-2">
+                        <a class="nav-link" aria-current="page" href="/mygear.html">MyGear</a>
+                    </div>
+                    <div class="p-2">
+                        <a class="nav-link" aria-current="page" href="/workwithus.html">Work Withus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 d-flex align-items-center justify-content-center">
+                <div class="d-flex flex-row">
+                    <div class="p-2">
+                        <a class="nav-link" aria-current="page" href="/login.html">
+                            <button class="btn btn-outline-light n1 fw-semibold fs-6 px-3">Login</button>
+                        </a>
+                    </div>
+                    <div class="p-2">
+                        <a class="nav-link" aria-current="page" href="/signup.html">
+                            <button class="btn btn-outline-light n1 fs-6 fw-semibold px-4">Signup</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-body-tertiary bg-dark p1" data-bs-theme="dark">
+        <div class="row">
+            <div class="col-1 d-flex align-items-center  justify-content-center p-2">
+                <a href="/index.html" class="nav-link" aria-current="page">
+                    <img src="/icons8-home-96.png" width="30" height="30" alt="error">
+                </a>
+            </div>
+            <div class="col-7 d-flex justify-content-end">
+                <div class="d-flex flex-row align-items-center text-light n1">
+                    <div class="p-2">
+                        <a class="nav-link" aria-current="page"
+                            href="https://www.codewithharry.com/tutorial/html-home/">HTML</a>
+                    </div>
+                    <div class="p-2">
+                        <a class="nav-link" aria-current="page"
+                            href="https://www.codewithharry.com/tutorial/css-home/">CSS</a>
+                    </div>
+                    <div class="p-2">
+                        <a class="nav-link" aria-current="page" href="https://www.codewithharry.com/tutorial/js/">JS</a>
+                    </div>
+                    <div class="p-2">
+                        <a class="nav-link" aria-current="page" href="https://www.codewithharry.com/tutorial/c/">C</a>
+                    </div>
+                    <div class="p-2">
+                        <a class="nav-link" aria-current="page"
+                            href="https://www.codewithharry.com/tutorial/cplusplus/">C++</a>
+                    </div>
+                    <div class="p-2">
+                        <a class="nav-link" aria-current="page"
+                            href="https://www.codewithharry.com/tutorial/java/">JAVA</a>
+                    </div>
+                    <div class="p-2">
+                        <a class="nav-link" aria-current="page"
+                            href="https://www.codewithharry.com/tutorial/python/">PYTHON</a>
+                    </div>
+                    <div class="p-2">
+                        <a class="nav-link" aria-current="page"
+                            href="https://www.codewithharry.com/tutorial/php/">PHP</a>
+                    </div>
+                    <div class="p-2">
+                        <a class="nav-link" aria-current="page"
+                            href="https://www.codewithharry.com/tutorial/react-home/">REACT JS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 d-flex justify-content-end align-items-center">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" id="search" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" role="button" id="btn-search" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container l1 d-flex align-items-center justify-content-center">
+        <div class="row shadow bg-body-tertiary rounded">
+            <div class="col-5">
+                <img src="https://source.unsplash.com/430x900/?desktop" class="img-fluid p-2 m-2" alt="Error">
+            </div>
+            <div class="col-7 n1">
+                <div class="d-flex flex-column p-2 m-2">
+                    <div class="d-flex justify-content-center mt-5">
+                        <img src="/favicon_package_v0.16/favicon.ico" width="40" height="40" alt="Error">
+                    </div>
+                    <div class="d-flex justify-content-center mt-2 fs-4 fw-semibold ">CodeWithAwais.com</div>
+                    <div class="d-flex justify-content-center fs-5 text-secondary">Welcome back!</div>
+                    <div class="d-flex justify-content-center mt-3">
+                        <button class="btn btn-outline-light border-dark">
+                            <a class="text-dark link-underline link-underline-opacity-0"
+                                href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=AYZoVhcIbIbjuKcxQAv793KCqMpzLhW8h1rh5OWqHdag_OPXGCXsA_p3hrwTEr-93LrnOyr3XEPg&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-838108011%3A1694590856228980&theme=glif">
+                                <img src="icons8-google-96.png" width="25" height="25" alt="Logo"> Sign in with Google
+                            </a>
+                        </button>
+                    </div>
+                    <div class="d-flex justify-content-center text-uppercase mt-2 text-secondary">Or login with email
+                    </div>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label fw-semibold">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text d-flex justify-content-end">
+                                <a class="text-secondary link-underline link-underline-opacity-0"
+                                    href="/resetpass.html">
+                                    Forgot Password?
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label fw-semibold">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-check btn border-secondary-subtle">
+                            <input type="checkbox" class="form-check-input border-secondary-subtle mt-3 mx-1"
+                                id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">I'm not a robot</label>
+                            <img class="ms-5 mt-1" src="recaptcha-icon.png" width="50" height="50" alt="Logo">
+                        </div>
+                    </form>
+                    <button class="btn btn-secondary mt-4 mx-3 mb-2">Login</button>
+                    <div class="d-flex justify-content-center text-uppercase">
+                        <a class="text-secondary link-underline link-underline-opacity-0 mb-3" href="/signup.html">Or
+                            signup
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container-fluid">
+        <div class="row crl">
+            <div class="col-7 d-flex justify-content-center align-items-center">
+                <div class="d-flex flex-column">
+                    <div class="fs-2 text-dark fw-semibold">
+                        <span>
+                            Welcome to CodeWithAwais
+                        </span>
+                    </div>
+                    <div class="fs-5 text-dark fw-semibold">
+                        <span>
+                            Learn - Web Development | Python | Data Science | C | C++ | ML
+                        </span>
+                    </div>
+                    <div class="crl3 text-secondary" style="width: 600px;">
+                        <p>
+                            Confused on which course to take? I have got you covered. Browse courses and find out the
+                            best
+                            course for you. Its free! Code With Harry is my attempt to teach basics and those coding
+                            techniques to people in short time which took me ages to learn.
+                        </p>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="me-3">
+                            <a class="nav-link" aria-current="page" href="#">
+                                <button class="btn btn-dark px-3">Free courses</button>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a class="nav-link" aria-current="page" href="#">
+                                <button class="btn btn-secondary px-3">Explore Blog</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-5 d-flex justify-content-center align-items-center bg-success mx-auto">
+                <img src="in1.jpeg" alt="Error">
+            </div>
+        </div>
+    </div> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

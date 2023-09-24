@@ -1,0 +1,72 @@
+.n1 {
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.u1 {
+    list-style-type: none
+}
+
+.f1 {
+    color: black;
+    font-size: 20px;
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Poppins', sans-serif
+}
+
+.f2 {
+    color: black;
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ftr {
+    background-color: rgb(227, 216, 216);
+}
+
+.p2 {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+.p1 {
+    position: sticky;
+    top: 89px;
+    z-index: 21
+}
+
+.crl {
+    height: 55vh;
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.crl1 {
+    width: 60%;
+    margin-top: 11vh;
+}
+
+.crl3 {
+    text-align: justify;
+}
+
+
+.bh1 {
+    height: 11vh;
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bc1 {
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.l1 {
+    height: 120vh;
+}
+.ho1:hover {
+    color: rgb(214, 122, 47);
+}
